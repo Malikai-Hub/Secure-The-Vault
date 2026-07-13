@@ -1,0 +1,12 @@
+let code1;
+code1 = 7 + 3;
+let code2;
+code2 = 50 - 20 / 2;
+let code3;
+code3 = 40 - (10 % 3);
+let message = "The Vault Has Been Secured. The Combination Is :";
+let codeA = code1 + "-" + code2 + "-" + code3;
+let codeB = `${code1}-${code2}-${code3}`;
+console.log(message);
+console.log(codeA);
+console.log(codeB);
